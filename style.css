@@ -1,0 +1,155 @@
+/* THIS IS MY STYLE RESET */
+
+* {
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  border: 1px solid grey; /* once I am finished I have to delete this */
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  color:#737373;
+  background-color:#fff2f2;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*------ UTILITY CLASSES ------*/
+
+.right    { text-align: right; }
+.left     { text-align: left;  }
+.centered { text-align: center;}
+
+.padded { padding: 5% }
+
+/*------ TYPOGRAPHY STYLES ------*/
+
+h2, h3, h4 {
+  line-height: 1;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+  color: #737373;
+}
+h2 { font-size: 2.2rem;}
+h3 { font-size: 1.8rem;}
+h4 { font-size: 1.4rem;}
+
+p {font-size: 1rem;}
+
+/*------ OTHER UNIQUE TYPOGRAPHY STYLES ------*/
+
+
+
+/*------ BUTTON STYLES ------*/
+
+.button {
+  text-decoration: none;
+  color: #737373;
+  border: 2px solid;
+  padding: 0.8rem 2rem;
+  margin: auto;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: 1s;
+}
+
+.button:hover {
+  color:#fa6095;
+}
+/*------- MASONRY GALLERY ------*/
+
+.masonry {
+  column-count: 3;
+  column-gap: 0.8rem;
+}
+/*------ DROPDOWN MENU BUTTON (from Code Pen- need to style alter)------*/
+
+.dropdown {
+  color:inherit;
+  text-transform: uppercase;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    left:10px;
+    padding:5px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-content a {
+  display:block;
+  padding:5px 15px;
+  text-align:left;
+  white-space:nowrap;
+}
+.dropdown-nav {
+  position:relative;
+}
+.dropdown-nav:hover .dropdown-content {
+    display: block;
+}
+
+/*------ HEADER ------*/
+
+header {
+  padding: 2% 3%;
+  padding-left: 2%;
+}
+
+header a {
+  text-decoration: none;
+  color:inherit;
+}
+
+header nav a {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0.6rem;
+}
+
+header h2.logo {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 3.2rem;
+  color: #fa6095;
+}
+
+/*------ FOOTER ------*/
+
+footer {
+  padding: 2% 3%;
+  padding-left: 2%;
+  background-color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color:inherit;
+}
+
+footer nav a {
+  text-transform: uppercase;
+  display: block;
+  padding: 0.6rem;
+}
+
+.inline a {
+  display: inline-block;
+}
+
+.socials {
+color:inherit;
+transition: 1s;
+}
+
+.socials:hover {
+color:#fa6095;
+}
+
+/*------ THIS IS MY MEDIA QUERY ------*/
