@@ -4,7 +4,6 @@
   padding: 0;
   margin:0;
   box-sizing: border-box;
-  border: 1px solid grey; /* once I am finished I have to delete this */
 }
 
 body {
@@ -18,13 +17,14 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 /*------ UTILITY CLASSES ------*/
 
 .right    { text-align: right; }
 .left     { text-align: left;  }
 .centered { text-align: center;}
 
-.padded { padding: 5% }
+.padded { padding: 3% }
 
 /*------ TYPOGRAPHY STYLES ------*/
 
@@ -32,6 +32,8 @@ h2, h3, h4 {
   line-height: 1;
   margin-bottom: 0.8rem;
   font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Shadows Into Light Two', cursive;
   color: #737373;
 }
 h2 { font-size: 2.2rem;}
@@ -67,6 +69,8 @@ p {font-size: 1rem;}
 .masonry {
   column-count: 3;
   column-gap: 0.8rem;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 /*------ DROPDOWN MENU BUTTON (from Code Pen- need to style alter)------*/
 
@@ -100,7 +104,6 @@ p {font-size: 1rem;}
 
 header {
   padding: 2% 3%;
-  padding-left: 2%;
 }
 
 header a {
@@ -124,8 +127,7 @@ header h2.logo {
 
 footer {
   padding: 2% 3%;
-  padding-left: 2%;
-  background-color: white;
+  background-color: #ffcfdf;
 }
 
 footer a {

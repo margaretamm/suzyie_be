@@ -1,51 +1,7 @@
-<!DOCTYPE html>
-<html>
-
-<!-- - - - - This is the Head where I put my external sources ------>
-  <head>
-
-    <title> Suzyie.be </title>
-
-<!-- - - - - This is where I link my font - - - - -->
-<link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
-
-<!-- - - - - This is my Gridlex - - - - -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
-
-<!-- - - - - This is link to my own stylesheet - - - - -->
-
-    <link rel="stylesheet" href="style.css">
-
-  </head>
-
-  <!-- - - - - This is the main Body of my website - - - - -->
-
-  <body>
-
-<!-- - - - - This is my header - - - - -->
-
-   <header class="grid-middle">
-     <div class="col-4">
-       <a href="#"> <h2 class="logo"> Suzyie.be </h2> </a>
-       <p> Surface patter designer </p>
-     </div>
-
-     <nav class="col-8 right">
-       <span> <a href="#"> About </a> </span>
-       <span> <a href="#"> Blog </a> </span>
-       <span class="dropdown-nav dropdown">
-         <span> Artwork </span>
-         <div class="dropdown-content">
-           <a href="#"> Florals </a>
-           <a href="#"> Sketches </a>
-           <a href="#"> Projects </a>
-         </div>
-       </span>
-       <span> <a href="#"> Contact </a> </span>
-      </nav>
-
-   </header>
+---
+layout: default
+title: Suzyie.be
+---
 
 <!-- - - - - This is the search section - - - - -->
 
@@ -61,7 +17,6 @@
 
    <section>
      <div class="masonry">
-       <!-- {% for %} -->
 
        <div> <a href="#"> <img src="images/masonry.jpg"> </a>
        </div>
@@ -75,73 +30,38 @@
        </div>
        <div> <a href="#"> <img src="images/masonry6.jpg"> </a>
        </div>
-       <div> <a href="#"> <img src="images/masonry7.jpg"> </a>
+       <div> <a href="#"> <img src="images/masonry3.jpg"> </a>
        </div>
-
-       <!-- {% for %} -->
+       <div> <a href="#"> <img src="images/masonry6.jpg"> </a>
+       </div>
+       <div> <a href="#"> <img src="images/masonry4.jpg"> </a>
+       </div>
     </div>
 
    </section>
 
-<!-- - - - - This is the blog section - - - - -->
+<!-- - - - -  Learn more section - - - - - -->
 
-  <section>
-
+   <section class="padded centered ">
+     <p> Believer in good and all things pretty.
+      Adventurer at heart; serious chocaholic by nature
+      Eternal optimist and art enthusiast by choice.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+      <a href="about.html" class="button centered"> Learn More </a>
   </section>
 
-<!-- - - - - This is the footer  - - - - -->
+<!-- - - - - This is the blog section - - - - -->
 
-  <footer class="grid">
 
-    <nav class="col-4-middle left">
-      <span> <a href="#"> About </a> </span>
-      <span> <a href="#"> Blog </a> </span>
-      <span class="dropdown-nav dropdown">
-        <span> Artwork </span>
-        <div class="dropdown-content">
-          <a href="#"> Florals </a>
-          <a href="#"> Sketches </a>
-          <a href="#"> Projects </a>
+    <section class="padded">
+      <div class="grid padded">
+        <div class="col-5">
+          <img src="images/masonry.jpg">
         </div>
-      </span>
-    </nav>
-
-
-    <div class="col-4-middle centered">
-      <h2> Let's connect </h2>
-      <nav class="socials inline">
-      <a href="#"> Instagram </a>
-      <a href="#"> Facebook </a>
-      <a href="#"> Gmail </a>
-      </nav>
-    </div>
-
-    <div class="col-4-middle right">
-      <h2> Get Updates </h2>
-      <a href="#" class="button"> Subscribe </a>
-    </div>
-
-
-
-  </footer>
-
-  </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</html>
+        <div class="col-7-middle padded">
+          <h4> This will be a blog </h4>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <a class="button" href="#"> Read More </a>
+        </div>
+      </div>
+  </section>
