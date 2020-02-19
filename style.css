@@ -75,8 +75,10 @@ p {font-size: 1rem;}
 /*------ DROPDOWN MENU BUTTON (from Code Pen- need to style alter)------*/
 
 .dropdown {
+  display: inline-block;
   color:inherit;
   text-transform: uppercase;
+  padding:5px;
 }
 .dropdown-content {
     display: none;
@@ -114,7 +116,7 @@ header a {
 header nav a {
   text-transform: uppercase;
   display: inline-block;
-  padding: 0.6rem;
+  padding: 1rem;
 }
 
 header h2.logo {
