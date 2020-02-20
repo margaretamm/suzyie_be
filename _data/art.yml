@@ -18,7 +18,7 @@
     alt: What a flower
     category: florals
   - img: /images/flower7.jpg
-    alt: Just a leave
+    alt: Just a leaf
     category: florals
   - img: /images/flower8.jpg
     alt: Flower patter
@@ -44,5 +44,25 @@
   - img: /images/daisy.jpg
     alt: Daisy
     category: sketches
-
+  - img: /images/grey/masonry2.jpg
+    alt: Grey
+    category: projects
+  - img: /images/pink/masonry.jpg
+    alt: Pink theme
+    category: projects
+  - img: /images/pink/masonry3.jpg
+    alt: Pinkish
+    category: projects
+  - img: /images/purple/masonry5.jpg
+    alt: Purple theme
+    category: projects
+  - img: /images/purple/masonry6.jpg
+    alt: Purple Patterns
+    category: projects
+  - img: /images/purple/masonry7.jpg
+    alt: Purple
+    category: projects
+  - img: /images/purple/masonry5.jpg
+    alt: Purple theme
+    category: projects
 ---
