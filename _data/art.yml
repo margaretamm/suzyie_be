@@ -1,0 +1,48 @@
+---
+  - img: /images/flower1.jpg
+    alt: Beautiful flower
+    category: florals
+  - img: /images/flower2.jpg
+    alt: Another flower
+    category: florals
+  - img: /images/flower3.jpg
+    alt: I like this flower
+    category: florals
+  - img: /images/flower4.jpg
+    alt: Flower flower
+    category: florals
+  - img: /images/flower5.jpg
+    alt: Really nice flower
+    category: florals
+  - img: /images/flower6.jpg
+    alt: What a flower
+    category: florals
+  - img: /images/flower7.jpg
+    alt: Just a leave
+    category: florals
+  - img: /images/flower8.jpg
+    alt: Flower patter
+    category: florals
+  - img: /images/flower9.jpg
+    alt: Perfect bouqet
+    category: florals
+  - img: /images/sketch.jpg
+    alt: Old man
+    category: sketches
+  - img: /images/sketch2.jpg
+    alt: Tablets
+    category: sketches
+  - img: /images/sketch3.jpg
+    alt: Faces
+    category: sketches
+  - img: /images/icecream.jpg
+    alt: Icecream
+    category: sketches
+  - img: /images/postcard.jpg
+    alt: Postcard
+    category: sketches
+  - img: /images/daisy.jpg
+    alt: Daisy
+    category: sketches
+
+---

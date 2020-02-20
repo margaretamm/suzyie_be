@@ -65,12 +65,25 @@ p {font-size: 1rem;}
 }
 /*------- MASONRY GALLERY ------*/
 
+
 .masonry {
   column-count: 3;
   column-gap: 0.8rem;
   padding-left: 3%;
   padding-right: 3%;
 }
+
+.masonry .item {
+  background-color: #eee;
+  display: inline-block;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.popup-gallery  {
+  border: 2px solid white;
+}
+
 /*------ DROPDOWN MENU BUTTON ------*/
 
 .dropdown {

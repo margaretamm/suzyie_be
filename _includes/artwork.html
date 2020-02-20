@@ -1,0 +1,16 @@
+<!-- - - - - - Gallery - - - - -->
+<div class="grid padded">
+  <div class="col-12 left">
+    <h2>{{include.category | capitalize }}</h2>
+  </div>
+</div>
+<!-- this page is the same for Florals, Sketches and Project, but the content is different  -->
+
+<div class="popup-gallery masonry">
+      {% assign filtered_art = site.data.art | where: "category", include.category %}
+       {% for item in filtered_art %}
+       <a class="item" href="{{item.img}}" title="{{item.alt}}" data-category="{{item.category}}">
+        <img src="{{item.img}}">
+      </a>
+      {% endfor %}
+</div>
