@@ -51,23 +51,30 @@
     alt: Pink theme
     category: projects
     project_images:
-      - "/images"
-      -
-      -
-      -
+      - "/images/pink1.jpg"
+      - "/images/pink2.jpg"
   - img: /images/pink/masonry3.jpg
     alt: Pinkish
     category: projects
+    project_images:
+      - "/images/pink3.jpg"
+      - "/images/pink4.jpg"
   - img: /images/purple/masonry5.jpg
     alt: Purple theme
     category: projects
+    project_images:
+      - "/images/purple1.jpg"
+      - "/images/purple2.jpg"
   - img: /images/purple/masonry6.jpg
     alt: Purple Patterns
     category: projects
+    project_images:
+      - "/images/purple3.jpg"
+      - "/images/purple4.jpg"
   - img: /images/purple/masonry7.jpg
     alt: Purple
     category: projects
-  - img: /images/purple/masonry5.jpg
-    alt: Purple theme
-    category: projects
+    project_images:
+      - "/images/purple5.jpg"
+      - "/images/purple6.jpg"
 ---
