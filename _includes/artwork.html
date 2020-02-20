@@ -9,7 +9,12 @@
 <div class="popup-gallery masonry">
       {% assign filtered_art = site.data.art | where: "category", include.category %}
        {% for item in filtered_art %}
-       <a class="item" href="{{item.img}}" title="{{item.alt}}" data-category="{{item.category}}">
+        {% if page.url == "/project.html" %}
+        {% assign href = "project-about.html" %}
+        {% else %}
+        {% assign href = item.img %}
+        {% endif %}
+       <a class="item" href="{{ href }}" title="{{item.alt}}" data-category="{{item.category}}">
         <img src="{{item.img}}">
       </a>
       {% endfor %}
