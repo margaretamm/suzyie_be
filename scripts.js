@@ -6,7 +6,7 @@ var $modal = $('.modal').first();
 
 console.log('Found ' + $links.length + ' project links');
 
-$links.click(function() {
+$links.click(function(event) {
   var name = $(this).attr('data-project-name');
   var images = $(this).attr('data-project-images').split(' ');
   var mainImage = $(this).find('img').attr('src');
@@ -38,6 +38,9 @@ $links.click(function() {
   $modal.append('</div>');
   $modal.append(s);
 
+  event.preventDefault();
+  event.stopPropagation();
+
   // show modal
   $modal.addClass('show');
 });
@@ -46,6 +49,15 @@ function closeModal() {
   console.log('Closing modal');
   $modal.removeClass('show');
 }
+
+
+$(".hamburger").click(function(){
+
+  $(this).toggleClass('active');
+  $(".mobile-nav").fadeToggle();
+
+});
+
 
   $('.popup-gallery').magnificPopup({
 		delegate: 'a[data-project-images=""]',

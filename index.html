@@ -16,44 +16,30 @@ title: Suzyie.be
 </section> -->
 
 <!-- - - - - This is the main section - - - - -->
+ <section>
 
-   <section>
-     <div class="masonry padded">
+    <div class="popup-gallery masonry padded">
 
-       <div> <a class="item" class="item" href="#"> <img src="images/pink/masonry.jpg"> </a>
-       </div>
-       <div> <a class="item" href="#"> <img src="images/grey/masonry2.jpg"> </a>
-       </div>
-       <div> <a class="item" href="#"> <img src="images/purple/masonry5.jpg"> </a>
-       </div>
-       <div> <a class="item" href="#"> <img src="images/pink/masonry3.jpg"> </a>
-       </div>
-       <div> <a class="item" href="#"> <img src="images/masonry4.jpg"> </a>
-       </div>
-       <div> <a class="item" href="#"> <img src="images/purple/masonry6.jpg"> </a>
-       </div>
-       <div> <a class="item" href="#"> <img src="images/pink/masonry3.jpg"> </a>
-       </div>
-       <div> <a class="item" href="#"> <img src="images/purple/masonry7.jpg"> </a>
-       </div>
-       <div> <a class="item" href="#"> <img src="images/purple/masonry6.jpg"> </a>
-       </div>
-       <div> <a class="item" href="#"> <img src="images/masonry4.jpg"> </a>
-       </div>
+      {% for item in site.data.art limit: 16 %}
+
+      <a class="item" href="{{item.img}}" title="{{item.alt}}" data-category="{{item.category}}" data-project-name="{{ item.alt }}" data-project-info="{{ item.project_info}}"
+      data-project-images="{% for pi in item.project_images %}{{ pi }} {% endfor %}">
+       <img src="{{item.img}}">
+       </a>
+      {% endfor %}
 
     </div>
 
-   </section>
-
-<!-- - - - -  Learn more section - - - - - -->
-
-   <section class="padded centered ">
-     <p> Believer in good and all things pretty. </p>
-     <p> Adventurer at heart; serious chocaholic by nature. </p>
-     <p> Eternal optimist and art enthusiast by choice. </p>
-     <a href="about.html" class="button centered"> Learn More </a>
   </section>
 
-<!-- - - - - This is the blog section - - - - -->
+<!-- - - - -  Little nice section - - - - - -->
 
-{% include blog-recent.html %}
+{% include nicething.html %}
+
+<!-- - - - - - This is where I put the Instagram plugin - - - - - -->
+
+<section>
+
+  <iframe src="//lightwidget.com/widgets/e123ccdc134950c7bc273b4efb45c3cb.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+
+</section>
