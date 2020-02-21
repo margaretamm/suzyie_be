@@ -38,6 +38,10 @@ img {
   padding: 0% 5%;
 }
 
+.relative {
+  position: relative;
+}
+
 
 /*------ TYPOGRAPHY STYLES ------*/
 
@@ -191,5 +195,45 @@ nav.socials {
 font-size: 1.5rem;
 }
 
+
+/* This is for the projects testing */
+
+.modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left:0;
+  background-color: white;
+
+  /* hide */
+  display: none;
+}
+
+.modal h1 {
+  line-height: 1;
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Shadows Into Light Two', cursive; }
+
+
+
+.modal.show {
+  display: block;
+}
+
+.modal .close {
+  float: right;
+}
+
+.modal img {
+  display: block;
+  width:500px;
+  height:auto;
+  /* background-size:cover; */
+  margin-bottom: 1rem;
+}
 
 /*------ THIS IS MY MEDIA QUERY ------*/

@@ -1,20 +1,27 @@
 <!-- - - - - - Gallery - - - - -->
 <div class="grid padded">
-  <div class="col-12 left">
+  <div class="col-12 left relative">
+
+        <div class="modal">
+        </div>
+
     <h2 class="artwork">{{include.category | capitalize }}</h2>
   </div>
 </div>
 <!-- this page is the same for Florals, Sketches and Project, but the content is different  -->
 
+
+
 <div class="popup-gallery masonry padded">
       {% assign filtered_art = site.data.art | where: "category", include.category %}
        {% for item in filtered_art %}
         {% if page.url == "/project.html" %}
-        {% assign href = "project-about.html" %}
+        {% assign href = "#" %}
         {% else %}
         {% assign href = item.img %}
         {% endif %}
-       <a class="item" href="{{href}}" title="{{item.alt}}" data-category="{{item.category}}">
+       <a class="item" href="{{href}}" title="{{item.alt}}" data-category="{{item.category}}" data-project-name="{{ item.alt }}" data-project-info="{{ item.project_info}}"
+       data-project-images="{% for pi in item.project_images %}{{ pi }} {% endfor %}">
         <img src="{{item.img}}">
       </a>
       {% endfor %}

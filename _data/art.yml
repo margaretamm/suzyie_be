@@ -45,39 +45,45 @@
     alt: Daisy
     category: sketches
   - img: /images/grey/masonry2.jpg
-    alt: Grey
+    alt: Fifty shades of grey (lol)
     category: projects
     project_images:
-      - "/images/grey1.jpg"
-      - "/images/grey2.jpg"
+      - "/images/grey/grey1.jpg"
+      - "/images/grey/grey2.jpg"
+    project_info: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   - img: /images/pink/masonry.jpg
     alt: Pink theme
     category: projects
     project_images:
-      - "/images/pink1.jpg"
-      - "/images/pink2.jpg"
+      - "/images/pink/pink1.jpg"
+      - "/images/pink/pink2.jpg"
+    project_info: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   - img: /images/pink/masonry3.jpg
     alt: Pinkish
     category: projects
     project_images:
-      - "/images/pink3.jpg"
-      - "/images/pink4.jpg"
+      - "/images/pink/pink3.jpg"
+      - "/images/pink/pink4.jpg"
+    project_info: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   - img: /images/purple/masonry5.jpg
     alt: Purple theme
     category: projects
     project_images:
-      - "/images/purple1.jpg"
-      - "/images/purple2.jpg"
+      - "/images/purple/purple1.jpg"
+      - "/images/purple/purple2.jpg"
+    project_info: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   - img: /images/purple/masonry6.jpg
     alt: Purple Patterns
     category: projects
     project_images:
-      - "/images/purple3.jpg"
-      - "/images/purple4.jpg"
+      - "/images/purple/purple3.jpg"
+      - "/images/purple/purple4.jpg"
+    project_info: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   - img: /images/purple/masonry7.jpg
     alt: Purple
     category: projects
     project_images:
-      - "/images/purple5.jpg"
-      - "/images/purple6.jpg"
+      - "/images/purple/purple5.jpg"
+      - "/images/purple/purple6.jpg"
+    project_info: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ---
