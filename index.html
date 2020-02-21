@@ -21,11 +21,12 @@ title: Suzyie.be
     <div class="popup-gallery masonry padded">
 
       {% for item in site.data.art limit: 16 %}
-
+      {% if item.category != "projects" %}
       <a class="item" href="{{item.img}}" title="{{item.alt}}" data-category="{{item.category}}" data-project-name="{{ item.alt }}" data-project-info="{{ item.project_info}}"
       data-project-images="{% for pi in item.project_images %}{{ pi }} {% endfor %}">
        <img src="{{item.img}}">
        </a>
+       {% endif %}
       {% endfor %}
 
     </div>
