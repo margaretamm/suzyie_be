@@ -47,6 +47,9 @@
   - img: /images/grey/masonry2.jpg
     alt: Grey
     category: projects
+    project_images:
+      - "/images/grey1.jpg"
+      - "/images/grey2.jpg"
   - img: /images/pink/masonry.jpg
     alt: Pink theme
     category: projects

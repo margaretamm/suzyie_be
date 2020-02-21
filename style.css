@@ -35,7 +35,7 @@ img {
 .centered { text-align: center;}
 
 .padded {
-  padding: 2%;
+  padding: 0% 5%;
 }
 
 
@@ -59,10 +59,20 @@ p {font-size: 1rem;
   line-height: 1.8;
 margin-bottom: 1rem;}
 
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: rgb(234, 134, 133);
+}
+
 /*------ OTHER UNIQUE TYPOGRAPHY STYLES ------*/
 
 h2.artwork {
-  padding-left: 5%;
+  /* padding-left: 5%; */
   letter-spacing: 10px;
 }
 
@@ -90,8 +100,8 @@ h2.artwork {
 .masonry {
   column-count: 3;
   column-gap: 1rem;
-  padding-left: 5%;
-  padding-right: 5%;
+  /* padding-left: 5%; */
+  /* padding-right: 5%; */
   padding-bottom: 5%;
 }
 
@@ -121,16 +131,6 @@ h2.artwork {
     left:-5px;
     padding:5px;
     /* box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1); */
-}
-
-.dropdown-content.footer {
-  display: none;
-  position: absolute;
-  text-align: left;
-  background-color: #ffffff;
-  bottom: 10px;
-  left:-5px;
-  padding:5px;
 }
 
 .dropdown:hover .dropdown-content {
