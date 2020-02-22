@@ -119,6 +119,10 @@ h2.artwork {
   margin-bottom: 1rem;
   width: 100%;
 }
+.masonry .item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
 
 .popup-gallery  {
   border: 2px solid white;
